@@ -23,14 +23,3 @@ This proof-of-concept demonstrates advanced n8n capabilities, moving beyond simp
    * The core logic engine.
    * Contains the AI Agents (Vertex AI), Airtable integration, data aggregation, and the outgoing WhatsApp API node.
 
-## 🛠️ How to Use (For Clients & Reviewers)
-
-To test or implement this workflow in your own n8n instance:
-1. Download the JSON files and import them into your n8n workspace.
-2. Replace the placeholder credentials (`YOUR_WEBHOOK_ID`, `YOUR_BASE_ID`, `YOUR_CREDENTIAL_ID`, etc.) with your actual API keys and internal IDs.
-3. Connect your WhatsApp Cloud API, Airtable, and Google Cloud (Vertex AI) accounts using n8n's credential manager.
-
-*Note: All sensitive data, phone numbers, Ngrok URLs, and API keys have been completely removed from these files for security purposes.*
-
----
-**Looking for a custom n8n integration?** I specialize in Business Process Automation, APIs, and AI workflows. Feel free to reach out on Upwork!
